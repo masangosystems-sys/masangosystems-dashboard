@@ -1,0 +1,103 @@
+{
+  "projects": [
+    {
+      "id": "adilo-villa",
+      "name": "Adilo Villa",
+      "description": "Premium luxury villa booking platform for short-stay properties in Midrand and Cape Town, South Africa.",
+      "status": "live",
+      "liveUrl": "https://adilovilla.com",
+      "repoUrl": "https://github.com/masangosystems-sys/adilo-villa",
+      "stack": ["Next.js", "Supabase", "PayFast", "Resend", "Vercel"],
+      "nextActions": [
+        "Switch PayFast from sandbox to production",
+        "Add Cape Town property photo",
+        "Add GA4 Measurement ID",
+        "Go-live cleanup (remove test monitoring emails)",
+        "Submit sitemap to Google Search Console",
+        "Set up Google Business Profile"
+      ],
+      "lastUpdated": "2026-05-20"
+    },
+    {
+      "id": "ekpo-performance",
+      "name": "EKPO Performance",
+      "description": "Website for a friend's performance business, built on a different model with embedded payment flows and email confirmation features similar to Adilo Villa.",
+      "status": "live",
+      "liveUrl": "https://ekpoperformance.com/",
+      "repoUrl": null,
+      "stack": ["Next.js", "Payments", "Email confirmations", "Vercel"],
+      "nextActions": [
+        "Document payment and email confirmation workflow",
+        "Add repository link when available",
+        "Capture as a separate business-model case study"
+      ],
+      "lastUpdated": "2026-05-21"
+    },
+    {
+      "id": "sanctuary-of-swagg",
+      "name": "Sanctuary of Swagg",
+      "description": "TBD - details to be added.",
+      "status": "active",
+      "liveUrl": null,
+      "repoUrl": "https://github.com/masangosystems-sys/sanctuary-of-swagg",
+      "stack": [],
+      "nextActions": ["Define project scope and stack"],
+      "lastUpdated": "2026-05-20"
+    },
+    {
+      "id": "nexus-template",
+      "name": "Nexus Template",
+      "description": "AI-powered business intelligence dashboard template - used as reference for Adilo Villa's intelligence layer.",
+      "status": "template",
+      "liveUrl": "https://nexus-ai-psi-ten.vercel.app/",
+      "repoUrl": "https://github.com/masangosystems-sys/nexus-template",
+      "stack": ["Next.js", "Vercel"],
+      "nextActions": ["Refine as reusable template for client projects"],
+      "lastUpdated": "2026-05-20"
+    },
+    {
+      "id": "portfolio-site",
+      "name": "Portfolio Site",
+      "description": "Personal portfolio showcasing Adilo Villa and other projects as case studies. Personal brand, not a template.",
+      "status": "planned",
+      "liveUrl": null,
+      "repoUrl": null,
+      "stack": [],
+      "nextActions": ["Start after Adilo Villa is fully live"],
+      "lastUpdated": "2026-05-20"
+    },
+    {
+      "id": "outreach-machine",
+      "name": "Outreach Machine",
+      "description": "Automated lead gen system - scrapes Airbnb/Google Maps for SA hosts without booking websites, scores leads, generates personalised outreach via Gemini, sends via Resend, tracks pipeline.",
+      "status": "planned",
+      "liveUrl": null,
+      "repoUrl": null,
+      "stack": ["Gemini", "Resend"],
+      "nextActions": ["Build after Portfolio Site"],
+      "lastUpdated": "2026-05-20"
+    },
+    {
+      "id": "demo-branch",
+      "name": "Demo Branch Strategy",
+      "description": "White-label demo system for selling the Adilo Villa platform to other SA short-stay hosts. Staged v1/v2/v3 demo deployments.",
+      "status": "planned",
+      "liveUrl": null,
+      "repoUrl": null,
+      "stack": ["Next.js", "Supabase", "Vercel"],
+      "nextActions": ["Build after Adilo Villa is fully live and stable"],
+      "lastUpdated": "2026-05-20"
+    }
+  ],
+  "quickLinks": [
+    { "label": "Obsidian Vault", "url": "obsidian://open?vault=Masango%20Systems", "icon": "vault" },
+    { "label": "GitHub Org", "url": "https://github.com/masangosystems-sys", "icon": "github" },
+    { "label": "Vercel", "url": "https://vercel.com/masangosystems-1914s-projects", "icon": "vercel" },
+    { "label": "Supabase", "url": "https://supabase.com/dashboard", "icon": "supabase" },
+    { "label": "Resend", "url": "https://resend.com/dashboard", "icon": "email" },
+    { "label": "PayFast Sandbox", "url": "https://sandbox.payfast.co.za", "icon": "payment" },
+    { "label": "Adilo Admin", "url": "https://adilovilla.com/admin", "icon": "admin" },
+    { "label": "Adilo Intelligence", "url": "https://adilovilla.com/intelligence", "icon": "intelligence" },
+    { "label": "EKPO Performance", "url": "https://ekpoperformance.com/", "icon": "performance" }
+  ]
+}
