@@ -13,6 +13,19 @@
   --blue: #2C5F82;
 }
 
+html.light {
+  --bg: #F5F2EC;
+  --surface: #FFFFFF;
+  --surface-2: #F0EDE6;
+  --gold: #9A7A2E;
+  --gold-muted: rgba(154,122,46,0.12);
+  --text: #1A1714;
+  --text-muted: #6B6560;
+  --border: rgba(154,122,46,0.2);
+  --green: #2E7D4F;
+  --blue: #2C5F82;
+}
+
 html.dark {
   --bg: #0D0D0D;
   --surface: #1A1A1A;
@@ -24,6 +37,32 @@ html.dark {
   --border: rgba(184,147,58,0.15);
   --green: #4CAF6F;
   --blue: #4A7FA5;
+}
+
+html.techy {
+  --bg: #0F1217;
+  --surface: #141A24;
+  --surface-2: #1A2030;
+  --gold: #7DD3FC;
+  --gold-muted: rgba(125,211,252,0.1);
+  --text: #E2E8F0;
+  --text-muted: #475569;
+  --border: rgba(14,165,233,0.2);
+  --green: #34D399;
+  --blue: #A78BFA;
+}
+
+html.villain {
+  --bg: #0A0A0A;
+  --surface: #111111;
+  --surface-2: #161616;
+  --gold: #CC1C1C;
+  --gold-muted: rgba(180,20,20,0.12);
+  --text: #E8E4DE;
+  --text-muted: #4A4845;
+  --border: rgba(180,20,20,0.3);
+  --green: #4A8C5C;
+  --blue: #6A6A8A;
 }
 
 @theme inline {
@@ -83,7 +122,9 @@ span {
   border-radius: 999px;
 }
 
-html.dark ::-webkit-scrollbar-thumb {
+html.dark ::-webkit-scrollbar-thumb,
+html.techy ::-webkit-scrollbar-thumb,
+html.villain ::-webkit-scrollbar-thumb {
   background: var(--gold-muted);
 }
 

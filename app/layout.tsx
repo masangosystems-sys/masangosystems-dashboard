@@ -21,14 +21,18 @@ export const metadata: Metadata = {
 
 const themeScript = `
   (function() {
+    var themes = ['dark', 'light', 'techy', 'villain'];
     try {
       var theme = localStorage.getItem('ms-theme');
-      if (theme === 'light') {
-        document.documentElement.classList.remove('dark');
-      } else {
-        document.documentElement.classList.add('dark');
+      var activeTheme = themes.indexOf(theme) === -1 ? 'dark' : theme;
+      for (var i = 0; i < themes.length; i++) {
+        document.documentElement.classList.remove(themes[i]);
       }
+      document.documentElement.classList.add(activeTheme);
     } catch (error) {
+      for (var j = 0; j < themes.length; j++) {
+        document.documentElement.classList.remove(themes[j]);
+      }
       document.documentElement.classList.add('dark');
     }
   })();
