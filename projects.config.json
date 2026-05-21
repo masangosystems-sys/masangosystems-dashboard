@@ -36,13 +36,19 @@
     {
       "id": "sanctuary-of-swagg",
       "name": "Sanctuary of Swagg",
-      "description": "TBD - details to be added.",
+      "description": "Notion-backed savedbyswagg production universe with a public portfolio, search, archive, collab intake, and private admin command center.",
       "status": "active",
-      "liveUrl": null,
+      "liveUrl": "https://i-ve-got-the-full-picture.vercel.app/",
       "repoUrl": "https://github.com/masangosystems-sys/sanctuary-of-swagg",
-      "stack": [],
-      "nextActions": ["Define project scope and stack"],
-      "lastUpdated": "2026-05-20"
+      "stack": ["Next.js", "Notion", "Password Auth", "Vercel"],
+      "nextActions": [
+        "Create and share Collab Submissions Notion data source",
+        "Set NOTION_DB_COLLABS locally and in Vercel",
+        "Test collab form submission and admin Collab Inbox end to end",
+        "Review live login flow and public landing data after latest deploy",
+        "Decide Instagram Graph API matching rules before sync"
+      ],
+      "lastUpdated": "2026-05-21"
     },
     {
       "id": "nexus-template",
@@ -98,6 +104,8 @@
     { "label": "PayFast Sandbox", "url": "https://sandbox.payfast.co.za", "icon": "payment" },
     { "label": "Adilo Admin", "url": "https://adilovilla.com/admin", "icon": "admin" },
     { "label": "Adilo Intelligence", "url": "https://adilovilla.com/intelligence", "icon": "intelligence" },
-    { "label": "EKPO Performance", "url": "https://ekpoperformance.com/", "icon": "performance" }
+    { "label": "EKPO Performance", "url": "https://ekpoperformance.com/", "icon": "performance" },
+    { "label": "Sanctuary of Swagg", "url": "https://i-ve-got-the-full-picture.vercel.app/", "icon": "performance" },
+    { "label": "Swagg Admin", "url": "https://i-ve-got-the-full-picture.vercel.app/admin", "icon": "admin" }
   ]
 }
